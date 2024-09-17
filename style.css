@@ -110,15 +110,17 @@ body{
 }
 #page1 #nav{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    padding: 2.3vw 5.5vw;
+    padding: 2vw 0vw;
+    /* display: flex; */
+    height: 20vh;
+    margin-right: 70vw;
 }
 #nav-part2{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 3vw;
+    gap: 2vw;
 }
 #nav-part2 h4{
     font-size: 0.8vw;
@@ -339,7 +341,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all ease 0.5s;
+    transition: all ease 0.4s;
     scale: 0;
     border-radius: 50%;
 }
@@ -507,7 +509,7 @@ body{
     color: transparent;
 }
 #footer{
-    height: 150vh;
+    height: 200vh;
     width: 100%;
     position: relative;
     padding-left: 28vw;
@@ -536,11 +538,13 @@ body{
 }
 #footer-div{
     display: flex;
+    /* background-color: #3F7DF4; */
     align-items: flex-start;
     justify-content: space-between;
     padding-right: 15vw;
     padding-top: 4vw;
-    margin-bottom: 6vw;
+    /* margin-bottom: 6vh; */
+    padding-bottom: 6vw;
 }
 #footer-div h6{
     font-size:0.9vw;

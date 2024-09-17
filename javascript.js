@@ -88,7 +88,7 @@ function cursorAnimation(){
         duration:1,
     });
     
-    Shery.makeMagnet("#nav-part2 h4");
+    Shery.makeMagnet("#nav h4");
 
     var videoContainer = document.querySelector("#video-container");
     var video = document.querySelector("#video-container video")
@@ -141,7 +141,8 @@ function sheryAnimation(){
         gooey:true
     })
 }
-loadingAnimation();
+window.addEventListener("DOMContentLoaded",loadingAnimation())
+// loadingAnimation();
 cursorAnimation();
 locomotiveAnimation();
 sheryAnimation()
